@@ -11,45 +11,33 @@
 		70373169232A6E2200B684E3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058F9572328DA6A00A286E1 /* UserModel.swift */; };
 		7037316B232A6E9100B684E3 /* JsonConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D4EA023293BDB00713BDA /* JsonConverter.swift */; };
 		7037316C232A6ECA00B684E3 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D4E902328E85700713BDA /* Keys.swift */; };
-		703D0838233A439600AC7CA6 /* UserAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D0837233A439600AC7CA6 /* UserAnswerModel.swift */; };
-		703D0839233A45A200AC7CA6 /* UserAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D0837233A439600AC7CA6 /* UserAnswerModel.swift */; };
 		703D4E912328E85700713BDA /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D4E902328E85700713BDA /* Keys.swift */; };
 		703D4E9E232937EE00713BDA /* ViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D4E9D232937EE00713BDA /* ViewController+ShowAlert.swift */; };
 		703D4EA123293BDB00713BDA /* JsonConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D4EA023293BDB00713BDA /* JsonConverter.swift */; };
 		703D4EA323294B5E00713BDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703D4EA223294B5E00713BDA /* MainViewController.swift */; };
-		70571D0623224CBE0031EDB8 /* QuestionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70571D0523224CBE0031EDB8 /* QuestionViewCell.swift */; };
 		70571D0923226B100031EDB8 /* UILabel+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70571D0823226B100031EDB8 /* UILabel+Font.swift */; };
 		70571D0A23226B700031EDB8 /* UILabel+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70571D0823226B100031EDB8 /* UILabel+Font.swift */; };
 		7058F9582328DA6A00A286E1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058F9572328DA6A00A286E1 /* UserModel.swift */; };
-		706136B3233920D300BA2779 /* SyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706136B2233920D300BA2779 /* SyncManager.swift */; };
 		707F79CF232BC6CE005B4E31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 707F79CE232BC6CE005B4E31 /* GoogleService-Info.plist */; };
 		707F79D0232BC6CE005B4E31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 707F79CE232BC6CE005B4E31 /* GoogleService-Info.plist */; };
-		BC6C46C120E7171D00BDB5A8 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6C46C020E7171D00BDB5A8 /* Media.xcassets */; };
 		BC903F4E20E5710E0022F55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC903F4D20E5710E0022F55B /* AppDelegate.swift */; };
 		BC903F5320E5710E0022F55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC903F5120E5710E0022F55B /* Main.storyboard */; };
 		BC903F5520E571190022F55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC903F5420E571190022F55B /* Assets.xcassets */; };
 		BC903F5820E571190022F55B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC903F5620E571190022F55B /* LaunchScreen.storyboard */; };
 		BC903F6620E573E20022F55B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC903F6520E573E10022F55B /* UserNotifications.framework */; };
 		BC903F6820E573E20022F55B /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC903F6720E573E20022F55B /* UserNotificationsUI.framework */; };
-		BC903F6B20E573E20022F55B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC903F6A20E573E20022F55B /* NotificationViewController.swift */; };
-		BC903F6E20E573E20022F55B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC903F6C20E573E20022F55B /* MainInterface.storyboard */; };
-		BC903F7220E573E20022F55B /* Notification Content App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC903F6320E573E10022F55B /* Notification Content App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		ECDC395CAD481ADC86614031 /* Pods_iOS_12_Notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5732ABA0FEC5F632B35C1 /* Pods_iOS_12_Notifications.framework */; };
-		ED508C1A2369A065003855DA /* SignUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED508C192369A065003855DA /* SignUp1ViewController.swift */; };
-		ED7F730F23185D0900C6DC75 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F730E23185D0900C6DC75 /* NetworkRequest.swift */; };
-		ED7F731223186E7300C6DC75 /* AnswersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F731123186E7300C6DC75 /* AnswersCollectionViewController.swift */; };
+		ED508C1A2369A065003855DA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED508C192369A065003855DA /* SignUpViewController.swift */; };
 		ED894D16236D73050037B16A /* CaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED894D15236D73050037B16A /* CaseKeys.swift */; };
 		EDA7AAD8233AE14B002A78A4 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7AAD7233AE14B002A78A4 /* QuestionModel.swift */; };
 		EDA7AAD9233AE17B002A78A4 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7AAD7233AE14B002A78A4 /* QuestionModel.swift */; };
 		EDB40F17236726E6002D53DF /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F16236726E6002D53DF /* AnswerTableViewCell.swift */; };
-		EDB40F192368366C002D53DF /* Quiz1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F182368366C002D53DF /* Quiz1ViewController.swift */; };
+		EDB40F192368366C002D53DF /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F182368366C002D53DF /* QuizViewController.swift */; };
 		EDB40F1B2368389E002D53DF /* AnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F1A2368389E002D53DF /* AnswerCollectionViewCell.swift */; };
 		EDB40F2123686F8F002D53DF /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F2023686F8F002D53DF /* NavigationBar.swift */; };
-		EDB40F2323687000002D53DF /* Login1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F2223687000002D53DF /* Login1ViewController.swift */; };
+		EDB40F2323687000002D53DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F2223687000002D53DF /* LoginViewController.swift */; };
 		EDB40F2623688E98002D53DF /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F2523688E98002D53DF /* DesignableUITextField.swift */; };
 		EDD35C282369A9BA00006770 /* RestoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD35C272369A9BA00006770 /* RestoreViewController.swift */; };
 		EDE02FD1236333FE00F58437 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE02FD0236333FE00F58437 /* UIView.swift */; };
-		EDE184B9233AB39F009B26FB /* SyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706136B2233920D300BA2779 /* SyncManager.swift */; };
 		EDFE850A236AF4ED00667E96 /* TransparentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE8509236AF4ED00667E96 /* TransparentTableViewCell.swift */; };
 		EDFE850B236AF4ED00667E96 /* TransparentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE8509236AF4ED00667E96 /* TransparentTableViewCell.swift */; };
 		EDFE850F236C33F100667E96 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFE850E236C33F100667E96 /* NetworkExtension.framework */; };
@@ -70,57 +58,27 @@
 		EDFE852B236D5EF100667E96 /* QuestionsDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDFE8529236D5EF100667E96 /* QuestionsDB.xcdatamodeld */; };
 		EDFE852C236D622700667E96 /* QuestionsDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDFE8529236D5EF100667E96 /* QuestionsDB.xcdatamodeld */; };
 		EDFE8530236D644C00667E96 /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE852F236D644C00667E96 /* Answers.swift */; };
-		EDFE8531236D64D300667E96 /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE852F236D644C00667E96 /* Answers.swift */; };
 		EDFE8533236D687600667E96 /* AnswerDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE8532236D687600667E96 /* AnswerDatabaseModel.swift */; };
 		EDFE8534236D688D00667E96 /* AnswerDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE8532236D687600667E96 /* AnswerDatabaseModel.swift */; };
 		EDFE853D236D6BC100667E96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE853C236D6BC100667E96 /* CoreDataManager.swift */; };
 		EDFE853E236D6BC100667E96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE853C236D6BC100667E96 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BC903F7020E573E20022F55B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC903F4220E5710E0022F55B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC903F6220E573E10022F55B;
-			remoteInfo = "Notification Content App Extension";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		BC903F7620E573E20022F55B /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				BC903F7220E573E20022F55B /* Notification Content App Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		2AC7864FB2462D7EF3314FF5 /* Pods-iOS 12 Notifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 12 Notifications.debug.xcconfig"; path = "Target Support Files/Pods-iOS 12 Notifications/Pods-iOS 12 Notifications.debug.xcconfig"; sourceTree = "<group>"; };
 		60AD57FEFE4E10F8F6CB838A /* Pods-iOS 12 Notifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 12 Notifications.release.xcconfig"; path = "Target Support Files/Pods-iOS 12 Notifications/Pods-iOS 12 Notifications.release.xcconfig"; sourceTree = "<group>"; };
-		703D0837233A439600AC7CA6 /* UserAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnswerModel.swift; sourceTree = "<group>"; };
 		703D4E902328E85700713BDA /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		703D4E9D232937EE00713BDA /* ViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ShowAlert.swift"; sourceTree = "<group>"; };
 		703D4EA023293BDB00713BDA /* JsonConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonConverter.swift; sourceTree = "<group>"; };
 		703D4EA223294B5E00713BDA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		70571D0523224CBE0031EDB8 /* QuestionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewCell.swift; sourceTree = "<group>"; };
 		70571D0823226B100031EDB8 /* UILabel+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Font.swift"; sourceTree = "<group>"; };
 		7058F9572328DA6A00A286E1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		706136B02339144500BA2779 /* iOS 12 Notifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS 12 Notifications.entitlements"; sourceTree = "<group>"; };
-		706136B12339175400BA2779 /* Notification Content App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Notification Content App Extension.entitlements"; sourceTree = "<group>"; };
-		706136B2233920D300BA2779 /* SyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncManager.swift; sourceTree = "<group>"; };
 		707F79CE232BC6CE005B4E31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		71A5732ABA0FEC5F632B35C1 /* Pods_iOS_12_Notifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_12_Notifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6F804045D9A12C913E8EFA /* Pods_Notification_Content_App_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notification_Content_App_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E92FDBAD327FEB275E76EF9 /* Pods-Notification Content App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notification Content App Extension.debug.xcconfig"; path = "Target Support Files/Pods-Notification Content App Extension/Pods-Notification Content App Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		B02412B2C1801C519265DC7E /* Pods-Notification Content App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notification Content App Extension.release.xcconfig"; path = "Target Support Files/Pods-Notification Content App Extension/Pods-Notification Content App Extension.release.xcconfig"; sourceTree = "<group>"; };
-		BC6C46C020E7171D00BDB5A8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		BC903F4A20E5710E0022F55B /* iOS 12 Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 12 Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC903F4D20E5710E0022F55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC903F5220E5710E0022F55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,19 +88,14 @@
 		BC903F6320E573E10022F55B /* Notification Content App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Notification Content App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC903F6520E573E10022F55B /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		BC903F6720E573E20022F55B /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
-		BC903F6A20E573E20022F55B /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		BC903F6D20E573E20022F55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		BC903F6F20E573E20022F55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED508C192369A065003855DA /* SignUp1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp1ViewController.swift; sourceTree = "<group>"; };
-		ED7F730E23185D0900C6DC75 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
-		ED7F731123186E7300C6DC75 /* AnswersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersCollectionViewController.swift; sourceTree = "<group>"; };
+		ED508C192369A065003855DA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ED894D15236D73050037B16A /* CaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseKeys.swift; sourceTree = "<group>"; };
 		EDA7AAD7233AE14B002A78A4 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		EDB40F16236726E6002D53DF /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
-		EDB40F182368366C002D53DF /* Quiz1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1ViewController.swift; sourceTree = "<group>"; };
+		EDB40F182368366C002D53DF /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		EDB40F1A2368389E002D53DF /* AnswerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCollectionViewCell.swift; sourceTree = "<group>"; };
 		EDB40F2023686F8F002D53DF /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		EDB40F2223687000002D53DF /* Login1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login1ViewController.swift; sourceTree = "<group>"; };
+		EDB40F2223687000002D53DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EDB40F2523688E98002D53DF /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
 		EDD35C272369A9BA00006770 /* RestoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreViewController.swift; sourceTree = "<group>"; };
 		EDE02FD0236333FE00F58437 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -167,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDC395CAD481ADC86614031 /* Pods_iOS_12_Notifications.framework in Frameworks */,
 				EDFE850F236C33F100667E96 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +151,6 @@
 		7025A2F523263E1900605183 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				706136B2233920D300BA2779 /* SyncManager.swift */,
 				EDFE8529236D5EF100667E96 /* QuestionsDB.xcdatamodeld */,
 				EDFE853C236D6BC100667E96 /* CoreDataManager.swift */,
 			);
@@ -246,7 +197,7 @@
 			children = (
 				EDB40F1C23686A24002D53DF /* Sign */,
 				703D4EA223294B5E00713BDA /* MainViewController.swift */,
-				EDB40F182368366C002D53DF /* Quiz1ViewController.swift */,
+				EDB40F182368366C002D53DF /* QuizViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -257,14 +208,6 @@
 				703D4EA023293BDB00713BDA /* JsonConverter.swift */,
 			);
 			path = Converters;
-			sourceTree = "<group>";
-		};
-		70571D0423224C8F0031EDB8 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				70571D0523224CBE0031EDB8 /* QuestionViewCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		70571D0723226AF60031EDB8 /* Extensions */ = {
@@ -299,7 +242,6 @@
 				7025A30B2326865800605183 /* Parsers */,
 				7025A2F523263E1900605183 /* Database */,
 				BC903F4C20E5710E0022F55B /* iOS 12 Notifications */,
-				BC903F6920E573E20022F55B /* Notification Content App Extension */,
 				BC903F6420E573E10022F55B /* Frameworks */,
 				BC903F4B20E5710E0022F55B /* Products */,
 				020533CD23DEDC64CF57DB4D /* Pods */,
@@ -325,7 +267,6 @@
 				703D4E942328EE7900713BDA /* Controllers */,
 				7025A2FA232641B600605183 /* Resources */,
 				70571D0723226AF60031EDB8 /* Extensions */,
-				ED7F730D23185CD700C6DC75 /* RestAPI */,
 				BC903F4D20E5710E0022F55B /* AppDelegate.swift */,
 				BC903F5120E5710E0022F55B /* Main.storyboard */,
 				BC903F5420E571190022F55B /* Assets.xcassets */,
@@ -347,36 +288,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC903F6920E573E20022F55B /* Notification Content App Extension */ = {
-			isa = PBXGroup;
-			children = (
-				706136B12339175400BA2779 /* Notification Content App Extension.entitlements */,
-				70571D0423224C8F0031EDB8 /* Cells */,
-				ED7F731023186E3B00C6DC75 /* Controllers */,
-				BC903F6A20E573E20022F55B /* NotificationViewController.swift */,
-				BC903F6C20E573E20022F55B /* MainInterface.storyboard */,
-				BC903F6F20E573E20022F55B /* Info.plist */,
-				BC6C46C020E7171D00BDB5A8 /* Media.xcassets */,
-			);
-			path = "Notification Content App Extension";
-			sourceTree = "<group>";
-		};
-		ED7F730D23185CD700C6DC75 /* RestAPI */ = {
-			isa = PBXGroup;
-			children = (
-				ED7F730E23185D0900C6DC75 /* NetworkRequest.swift */,
-			);
-			path = RestAPI;
-			sourceTree = "<group>";
-		};
-		ED7F731023186E3B00C6DC75 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				ED7F731123186E7300C6DC75 /* AnswersCollectionViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		ED87783C2318516100CE22AC /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,7 +295,6 @@
 				7058F9572328DA6A00A286E1 /* UserModel.swift */,
 				EDFE8532236D687600667E96 /* AnswerDatabaseModel.swift */,
 				EDA7AAD7233AE14B002A78A4 /* QuestionModel.swift */,
-				703D0837233A439600AC7CA6 /* UserAnswerModel.swift */,
 				EDFE852F236D644C00667E96 /* Answers.swift */,
 			);
 			path = Model;
@@ -418,8 +328,8 @@
 		EDB40F1C23686A24002D53DF /* Sign */ = {
 			isa = PBXGroup;
 			children = (
-				EDB40F2223687000002D53DF /* Login1ViewController.swift */,
-				ED508C192369A065003855DA /* SignUp1ViewController.swift */,
+				EDB40F2223687000002D53DF /* LoginViewController.swift */,
+				ED508C192369A065003855DA /* SignUpViewController.swift */,
 				EDD35C272369A9BA00006770 /* RestoreViewController.swift */,
 			);
 			path = Sign;
@@ -452,13 +362,11 @@
 				BC903F4620E5710E0022F55B /* Sources */,
 				BC903F4720E5710E0022F55B /* Frameworks */,
 				BC903F4820E5710E0022F55B /* Resources */,
-				BC903F7620E573E20022F55B /* Embed App Extensions */,
 				8EA1467D368C5F501A41C599 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC903F7120E573E20022F55B /* PBXTargetDependency */,
 			);
 			name = "iOS 12 Notifications";
 			productName = "iOS 12 Notifications";
@@ -548,9 +456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC903F6E20E573E20022F55B /* MainInterface.storyboard in Resources */,
 				707F79D0232BC6CE005B4E31 /* GoogleService-Info.plist in Resources */,
-				BC6C46C120E7171D00BDB5A8 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,19 +542,16 @@
 				EDFE8516236C3DB500667E96 /* Constants.swift in Sources */,
 				703D4E9E232937EE00713BDA /* ViewController+ShowAlert.swift in Sources */,
 				EDFE853D236D6BC100667E96 /* CoreDataManager.swift in Sources */,
-				ED508C1A2369A065003855DA /* SignUp1ViewController.swift in Sources */,
+				ED508C1A2369A065003855DA /* SignUpViewController.swift in Sources */,
 				EDB40F17236726E6002D53DF /* AnswerTableViewCell.swift in Sources */,
 				70571D0923226B100031EDB8 /* UILabel+Font.swift in Sources */,
 				EDFE8511236C3ADE00667E96 /* APIRouter.swift in Sources */,
-				EDB40F192368366C002D53DF /* Quiz1ViewController.swift in Sources */,
+				EDB40F192368366C002D53DF /* QuizViewController.swift in Sources */,
 				EDFE8522236C66F500667E96 /* LocalStorageProtocol.swift in Sources */,
 				703D4EA123293BDB00713BDA /* JsonConverter.swift in Sources */,
-				703D0838233A439600AC7CA6 /* UserAnswerModel.swift in Sources */,
-				EDB40F2323687000002D53DF /* Login1ViewController.swift in Sources */,
+				EDB40F2323687000002D53DF /* LoginViewController.swift in Sources */,
 				EDFE8530236D644C00667E96 /* Answers.swift in Sources */,
-				ED7F730F23185D0900C6DC75 /* NetworkRequest.swift in Sources */,
 				BC903F4E20E5710E0022F55B /* AppDelegate.swift in Sources */,
-				706136B3233920D300BA2779 /* SyncManager.swift in Sources */,
 				EDB40F2123686F8F002D53DF /* NavigationBar.swift in Sources */,
 				EDB40F2623688E98002D53DF /* DesignableUITextField.swift in Sources */,
 				7058F9582328DA6A00A286E1 /* UserModel.swift in Sources */,
@@ -666,39 +569,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703D0839233A45A200AC7CA6 /* UserAnswerModel.swift in Sources */,
 				EDFE8526236C70F100667E96 /* LocalStorageProtocol.swift in Sources */,
 				EDFE850B236AF4ED00667E96 /* TransparentTableViewCell.swift in Sources */,
 				EDFE8517236C3E0400667E96 /* Constants.swift in Sources */,
 				7037316B232A6E9100B684E3 /* JsonConverter.swift in Sources */,
 				EDFE8525236C70ED00667E96 /* LocalStorageKeysProtocol.swift in Sources */,
 				EDFE852C236D622700667E96 /* QuestionsDB.xcdatamodeld in Sources */,
-				70571D0623224CBE0031EDB8 /* QuestionViewCell.swift in Sources */,
 				EDFE8518236C3E0700667E96 /* APIRouter.swift in Sources */,
 				EDFE8528236C70F900667E96 /* Storeable.swift in Sources */,
 				EDFE853E236D6BC100667E96 /* CoreDataManager.swift in Sources */,
-				EDE184B9233AB39F009B26FB /* SyncManager.swift in Sources */,
 				EDA7AAD9233AE17B002A78A4 /* QuestionModel.swift in Sources */,
 				EDFE8527236C70F400667E96 /* LocalStorage.swift in Sources */,
 				70571D0A23226B700031EDB8 /* UILabel+Font.swift in Sources */,
-				BC903F6B20E573E20022F55B /* NotificationViewController.swift in Sources */,
 				7037316C232A6ECA00B684E3 /* Keys.swift in Sources */,
-				EDFE8531236D64D300667E96 /* Answers.swift in Sources */,
-				ED7F731223186E7300C6DC75 /* AnswersCollectionViewController.swift in Sources */,
 				EDFE8534236D688D00667E96 /* AnswerDatabaseModel.swift in Sources */,
 				70373169232A6E2200B684E3 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BC903F7120E573E20022F55B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC903F6220E573E10022F55B /* Notification Content App Extension */;
-			targetProxy = BC903F7020E573E20022F55B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC903F5120E5710E0022F55B /* Main.storyboard */ = {
@@ -715,14 +604,6 @@
 				BC903F5720E571190022F55B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		BC903F6C20E573E20022F55B /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC903F6D20E573E20022F55B /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -846,7 +727,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2AC7864FB2462D7EF3314FF5 /* Pods-iOS 12 Notifications.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "iOS 12 Notifications/iOS 12 Notifications.entitlements";
@@ -875,7 +755,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60AD57FEFE4E10F8F6CB838A /* Pods-iOS 12 Notifications.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "iOS 12 Notifications/iOS 12 Notifications.entitlements";

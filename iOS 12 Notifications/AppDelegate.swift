@@ -38,7 +38,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        GlobalStorage.initStorage()
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
             if granted {
                 print("Notifications permission granted.")
@@ -51,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let style = NSMutableParagraphStyle()
         style.firstLineHeadIndent = 30
         UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.paragraphStyle : style]
-        UIApplication.shared.setMinimumBackgroundFetchInterval(100)
+        UIApplication.shared.setMinimumBackgroundFetchInterval(3600)
         return true
     }
     
@@ -73,6 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                     questionCoreData.answers = Answers(answers: answersModel)
                 }
                 CoreDataManager.instance.saveContext()
+                completionHandler(UIBackgroundFetchResult.newData)
             }
         })
     }

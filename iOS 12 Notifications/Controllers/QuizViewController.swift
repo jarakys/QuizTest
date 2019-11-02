@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Quiz1ViewController: UIViewController {
+class QuizViewController: UIViewController {
 
     @IBOutlet weak var questionContainerView: UIView!
     @IBOutlet weak var questionLabel: UILabel!
@@ -23,14 +23,9 @@ class Quiz1ViewController: UIViewController {
     private var rightAnswerIndexPath: IndexPath?
     //private var quizModel:QuizModel!
     private var question:Question!
-    private var dbContext: QuizParser?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let path  = Bundle.main.path(forResource: "questionsDb", ofType: "db") {
-            let databaseManager = DatabaseManager(databasePath: path)!
-            dbContext = QuizParser(databaseManager: databaseManager)
-        }
         initQuizModel()
         updateViews()
         answerTableView.backgroundColor = .clear
@@ -66,7 +61,7 @@ class Quiz1ViewController: UIViewController {
     }
 }
 
-extension Quiz1ViewController : UITableViewDelegate {
+extension QuizViewController : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
@@ -100,7 +95,7 @@ extension Quiz1ViewController : UITableViewDelegate {
     }
 }
 
-extension Quiz1ViewController : UITableViewDataSource {
+extension QuizViewController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1

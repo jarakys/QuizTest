@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Login1ViewController: UIViewController {
+class LoginViewController: UIViewController {
     @IBOutlet weak var loginTextField: DesignableUITextField!
     @IBOutlet weak var passwordTextField: DesignableUITextField! {
         didSet {
@@ -87,9 +87,32 @@ class Login1ViewController: UIViewController {
                     self.showAlert(title: "Error", message: error.localizedDescription)
                 case .success(let user):
                     self.storage.writeStoreable(key: Keys.User, value: user)
-                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let controller = storyboard.instantiateViewController(withIdentifier: "quizVC")
-                    self.navigationController?.pushViewController(controller, animated: true)
+                    self.getQuestions()
+            }
+        })
+    }
+    
+    private func getQuestions() {
+        let count = try! CoreDataManager.instance.managedObjectContext.count(for: Question.fetchRequest())
+        APIClient.getQuestions(startIndex: count, complition: {result in
+            if let questions = try? result.get(){
+                for question in questions {
+                    print(question.answers.count)
+                    let questionCoreData = Question(context: CoreDataManager.instance.managedObjectContext)
+                    questionCoreData.correctAnswerText = question.correctAnswerText
+                    questionCoreData.text = question.text
+                    questionCoreData.idQuestion = question.idQuestion
+                    var answersModel:[AnswerDatabaseModel] = []
+                    for (index,answer) in question.answers.enumerated() {
+                        let answerDb =  AnswerDatabaseModel(key: CaseKey(rawValue: index)!.string(), text: answer)
+                        answersModel.append(answerDb)
+                    }
+                    questionCoreData.answers = Answers(answers: answersModel)
+                }
+                CoreDataManager.instance.saveContext()
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let controller = storyboard.instantiateViewController(withIdentifier: "quizVC")
+                self.navigationController?.pushViewController(controller, animated: true)
             }
         })
     }
@@ -107,7 +130,7 @@ class Login1ViewController: UIViewController {
     }
 }
 
-extension Login1ViewController : DesignableUITextFieldDelegate {
+extension LoginViewController : DesignableUITextFieldDelegate {
     func rightViewClick(sender: UIView) {
         if let imageView  = sender as? UIImageView {
             passwordTextField.isSecureTextEntry = !passwordTextField.isSecureTextEntry

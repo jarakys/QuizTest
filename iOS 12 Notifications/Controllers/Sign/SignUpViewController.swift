@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignUp1ViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var passwordField: DesignableUITextField!{
@@ -72,7 +72,7 @@ class SignUp1ViewController: UIViewController {
     }
 }
 
-extension SignUp1ViewController : DesignableUITextFieldDelegate {
+extension SignUpViewController : DesignableUITextFieldDelegate {
     func rightViewClick(sender: UIView) {
         if let imageView  = sender as? UIImageView {
             passwordField.isSecureTextEntry = !passwordField.isSecureTextEntry

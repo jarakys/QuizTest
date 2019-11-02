@@ -88,7 +88,6 @@ class MainViewController: UIViewController {
     @IBAction func logoutClick(_ sender: Any) {
          UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["notificationSyject"])
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["quickNotif"])
-        StorageManager.deleteKey(key: .User)
     }
 }
 
